@@ -5,9 +5,10 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
     @RunWith(Cucumber.class)
-    @CucumberOptions(features = "src/test/resources",dryRun =false,strict = true,tags = "@regression", plugin = {"json:target/reshma.json"})
+    @CucumberOptions(features = "src/test/resources",dryRun =false,strict = true,tags = "@regression",
+            plugin = {"json:target/reshma.json"})
 
     public class RunerHukesTest {
 
-
+        
     }
